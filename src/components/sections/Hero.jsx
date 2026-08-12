@@ -1,5 +1,3 @@
-import { Code2, Globe, Mail, FileDown } from 'lucide-react'
-
 const CV_URL = '/assets/Timothy_Imani_CV.pdf'
 
 export default function Hero() {
@@ -10,7 +8,7 @@ export default function Hero() {
     >
       <div className="max-w-4xl mx-auto text-center">
         <img
-          src="/assets/profile1.jpg"
+          src="/assets/Profile.png"
           alt="Timothy Imani"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-6 border-4 border-white dark:border-slate-800 shadow-lg"
         />
@@ -47,9 +45,14 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
             aria-label="LinkedIn"
-            className="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
+            title="LinkedIn"
           >
-            <Globe size={24} />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+              alt="LinkedIn Icon"
+              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
+            />
           </a>
 
           <a
@@ -57,26 +60,41 @@ export default function Hero() {
             target="_blank"
             rel="noreferrer"
             aria-label="GitHub"
-            className="text-slate-500 dark:text-slate-400 hover:text-slate-900 dark:hover:text-white transition-colors"
+            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
+            title="GitHub"
           >
-            <Code2 size={24} />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+              alt="GitHub Icon"
+              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
+            />
           </a>
 
           <a
             href="mailto:timothyimani6@gmail.com"
             aria-label="Email"
-            className="text-slate-500 dark:text-slate-400 hover:text-red-600 dark:hover:text-red-400 transition-colors"
+            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
+            title="Email"
           >
-            <Mail size={24} />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gmail/gmail-original.svg"
+              alt="Gmail Icon"
+              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
+            />
           </a>
 
           <a
             href={CV_URL}
             download
             aria-label="Download CV"
-            className="text-slate-500 dark:text-slate-400 hover:text-blue-700 dark:hover:text-blue-400 transition-colors"
+            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
+            title="Download CV"
           >
-            <FileDown size={24} />
+            <img
+              src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
+              alt="Download CV Icon"
+              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
+            />
           </a>
         </div>
       </div>
