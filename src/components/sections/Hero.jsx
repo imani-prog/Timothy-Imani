@@ -4,7 +4,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="pt-32 pb-20 px-5 sm:px-8 bg-gradient-to-b from-blue-50 to-white dark:from-slate-950 dark:to-slate-900"
+      className="pt-32 pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
     >
       <div className="max-w-4xl mx-auto text-center">
         <img
