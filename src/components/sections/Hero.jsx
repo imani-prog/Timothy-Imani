@@ -1,4 +1,4 @@
-const CV_URL = '/assets/Timothy_Imani_CV.pdf'
+const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
 
 export default function Hero() {
   return (
@@ -85,10 +85,11 @@ export default function Hero() {
 
           <a
             href={CV_URL}
-            download
-            aria-label="Download CV"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Preview CV"
             className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
-            title="Download CV"
+            title="Preview CV"
           >
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
