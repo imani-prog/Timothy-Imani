@@ -1,14 +1,14 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-slate-900 dark:bg-slate-950 text-white">
+    <section id="contact" className=" ">
       <div className="max-w-2xl mx-auto px-5 sm:px-8 py-24 text-center">
         <h2 className="text-2xl sm:text-3xl font-bold">Contact Me</h2>
 
-        <p className="mt-4 text-base sm:text-lg text-slate-300">
+        <p className="mt-4 text-base sm:text-lg ">
           Let's talk about software engineering & building great products!
         </p>
 
-        <p className="mt-3 text-sm sm:text-base text-slate-400">
+        <p className="mt-3 text-sm sm:text-base ">
           Don't like forms?{' '}
           <a
             href="mailto:timothyimani6@gmail.com"
@@ -21,12 +21,12 @@ export default function Contact() {
 
         <a
           href="mailto:timothyimani6@gmail.com"
-          className="block mt-4 text-lg sm:text-xl font-medium text-white hover:text-blue-400 transition-colors"
+          className="block mt-4 text-lg sm:text-xl font-medium  hover:text-blue-400 transition-colors"
         >
           timothyimani6@gmail.com
         </a>
 
-        <p className="mt-3 text-sm text-slate-400">Nairobi, Kenya</p>
+        <p className="mt-3 text-sm ">Nairobi, Kenya</p>
 
         <div className="flex items-center justify-center gap-5 mt-8">
           <a

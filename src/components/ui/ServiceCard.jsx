@@ -25,7 +25,7 @@ export default function ServiceCard({ service }) {
             key={point}
             className="text-sm text-slate-600 dark:text-slate-300 leading-snug flex gap-2.5"
           >
-            <span className="mt-2 w-1 h-1 rounded-full bg-blue-700 dark:bg-blue-400 flex-shrink-0" />
+            <span className="mt-2 w-1 h-1 rounded-full bg-blue-700 dark:bg-blue-400 shrink-0" />
             {point}
           </li>
         ))}
