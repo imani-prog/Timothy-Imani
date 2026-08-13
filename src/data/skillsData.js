@@ -7,7 +7,7 @@ export const skillGroups = [
 
   {
     main: 'Java & Backend Development',
-    related: ['Spring Boot', 'Spring Data JPA', 'REST API design & security',  'Spring Cloud'],
+    related: ['Spring Boot','Spring Data JPA', 'REST API design & security','Spring Cloud'],
   },
   
   {
@@ -16,16 +16,16 @@ export const skillGroups = [
   },
   {
     main: 'Databases Administration',
-    related: ['PostgreSQL', 'MySQL','Database Design & Optimization'],
+    related: ['PostgreSQL','MySQL','Database Design & Optimization'],
   },
 
   {
     main: 'DevOps & Cloud',
-    related: ['Docker', 'GitHub Actions', 'Google Cloud Platform', ''],
+    related: ['Docker', 'GitHub Actions', 'Google Cloud Platform', 'CI/CD Pipelines', ''],
   },
   {
     main: 'Tools',
-    related: ['Git & GitHub', 'VS Code', 'IntelliJ IDEA', 'Postman'],
+    related: ['Git & GitHub', 'VS Code', 'IntelliJ IDEA', 'Postman','PgAdmin'],
   },
 ]
 
