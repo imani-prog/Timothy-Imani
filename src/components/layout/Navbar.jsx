@@ -66,15 +66,22 @@ export default function Navbar() {
       </nav>
 
       {/* Mobile menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-5 py-4">
+      <div
+        className={
+          `md:hidden overflow-hidden transition-all duration-500 ease-in-out ` +
+          (menuOpen
+            ? 'max-h-80 opacity-100 translate-y-0'
+            : 'max-h-0 opacity-0 -translate-y-2 pointer-events-none')
+        }
+      >
+        <div className="bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-5 py-4">
           <ul className="flex flex-col gap-4">
             {NAV_LINKS.map((link) => (
               <li key={link.href}>
                 <a
                   href={link.href}
                   onClick={() => setMenuOpen(false)}
-                  className="block text-sm font-medium text-slate-700 dark:text-slate-200"
+                  className="block text-sm font-medium text-slate-700 dark:text-slate-200 transition-opacity duration-300"
                 >
                   {link.label}
                 </a>
@@ -82,7 +89,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-      )}
+      </div>
     </header>
   )
 }
