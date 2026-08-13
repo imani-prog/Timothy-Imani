@@ -1,3 +1,7 @@
+
+const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
+const WHATSAPP_URL = 'https://wa.me/254743669252'
+
 export default function About() {
   return (
     <section
@@ -32,6 +36,26 @@ export default function About() {
             — Clifford Stoll
           </cite>
         </blockquote>
+
+         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
+          <a
+            href={WHATSAPP_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="w-full sm:w-auto px-7 py-3 rounded-[26px] bg-blue-700 text-white text-lg font-semibold shadow-md hover:bg-blue-800 transition-all duration-200"
+          >
+            HIRE ME
+          </a>
+
+          <a
+            href={CV_URL}
+            target="_blank"
+            rel="noreferrer"
+            className="w-full sm:w-auto px-7 py-3 rounded-[26px] border border-slate-300 bg-slate-200 text-slate-900 text-lg font-semibold shadow-md hover:bg-slate-300 transition-all duration-200"
+          >
+            DOWNLOAD CV
+          </a>
+        </div>
       </div>
     </section>
   )

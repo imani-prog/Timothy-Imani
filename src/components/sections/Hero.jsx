@@ -1,14 +1,24 @@
 import ProfileImage from '../../assets/Profile.png'
 import GmailIcon from '../../assets/gmail.png'
+import { Sunrise, Sun, MoonStar } from 'lucide-react'
 
 const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
-const WHATSAPP_URL = 'https://wa.me/254743669252'
+// const WHATSAPP_URL = 'https://wa.me/254743669252'
+
+function getGreeting() {
+  const hour = new Date().getHours()
+  if (hour < 12) return { text: 'Good Morning', Icon: Sunrise}
+  if (hour < 18) return { text: 'Good Afternoon', Icon: Sun }
+  return { text: 'Good Evening', Icon: MoonStar }
+}
 
 export default function Hero() {
+  const { text: greetingText, Icon: GreetingIcon} = getGreeting()
+
   return (
     <section
       id="home"
-      className="pt-32 pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
+      className="pt-32 font-serif pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
     >
       <div className="max-w-4xl mx-auto text-center">
         <img
@@ -17,37 +27,49 @@ export default function Hero() {
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-6 border-4 border-white dark:border-slate-800 shadow-lg"
         />
 
-        <h1 className="text-3xl sm:text-5xl font-extrabold text-slate-900 dark:text-white">
-          I'm Timothy Imani
-        </h1>
+        <div
+          id="greeting"
+          className="flex items-center justify-center gap-2 sm:gap-3 mb-4 text-slate-700 dark:text-slate-200"
+        >
+          <span className="text-xl sm:text-3xl font-medium text-blue-700 dark:text-blue-400">
+            {greetingText}
+          </span>
+          <GreetingIcon
+            size={26}
+            className="text-blue-700 dark:text-blue-400 sm:w-8 sm:h-8"
+          />
+        </div>
 
-        <p className="mt-4 text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto">
-          Software Engineer, Database Administrator, and Web Developer — a tech
-          enthusiast building scalable web apps, reliable data systems, and
-          smooth user experiences.
-        </p>
+        <div className="inline-flex flex-col items-center w-full">
+          <h1 className="text-4xl sm:text-7xl font-extrabold text-slate-900 dark:text-white leading-none break-words px-2">
+            I'm Timothy Imani.
+          </h1>
+
+          <div className="mt-5 sm:mt-6 w-full flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
+            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+              SOFTWARE ENGINEER
+            </span>
+            <span className="hidden sm:block h-8 sm:h-10 w-[3px] bg-slate-400 dark:bg-slate-600" />
+            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+              CLOUD ENTHUSIAST
+            </span>
+            <span className="hidden sm:block h-8 sm:h-10 w-[3px] bg-slate-400 dark:bg-slate-600" />
+            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+              WEB DEVELOPER
+            </span>
+          </div>
+        </div>
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto px-7 py-3 rounded-[26px] bg-blue-700 text-white text-lg font-semibold shadow-md hover:bg-blue-800 transition-all duration-200"
+            href="#about"
+            className="w-[65%] max-w-[320px] sm:w-auto px-7 py-3 rounded-[26px] bg-blue-700 text-white text-lg font-semibold shadow-md hover:bg-blue-800 transition-all duration-200"
           >
-            HIRE ME
-          </a>
-
-          <a
-            href={CV_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto px-7 py-3 rounded-[26px] border border-slate-300 bg-slate-200 text-slate-900 text-lg font-semibold shadow-md hover:bg-slate-300 transition-all duration-200"
-          >
-            DOWNLOAD CV
+            More About Me
           </a>
         </div>
 
-        <div className="mt-8 flex items-center justify-center gap-5">
+        <div className="mt-18 flex items-center justify-center gap-5">
           <a
             href="https://www.linkedin.com/in/timothy-imani-5677ba253"
             target="_blank"
