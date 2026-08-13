@@ -27,6 +27,7 @@ export default function About() {
             />
 
             <div className="mt-8 w-full space-y-4">
+
               <div className="flex items-start gap-3">
                 <GraduationCap size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
                 <span className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
@@ -55,12 +56,12 @@ export default function About() {
               </div>
             </div>
 
-            <div className="mt-8 flex flex-col w-full gap-3">
+            <div className="mt-8 flex flex-col w-full max-w-50 mx-auto lg:mx-0 gap-3">
               <a
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="text-center px-4 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
+                className="w-full text-center px-4 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
               >
                 HIRE ME
               </a>
@@ -68,7 +69,7 @@ export default function About() {
                 href={CV_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="text-center px-4 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
+                className="w-full text-center px-4 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
               >
                 DOWNLOAD CV
               </a>
