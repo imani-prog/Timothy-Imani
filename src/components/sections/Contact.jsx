@@ -1,3 +1,5 @@
+import GmailIcon from '../../assets/gmail.png'
+
 export default function Contact() {
   return (
     <section id="contact" className=" ">
@@ -52,6 +54,17 @@ export default function Contact() {
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
               alt="LinkedIn Icon"
+              className="w-5 h-5 object-contain"
+            />
+          </a>
+          <a
+            href="mailto:timothyimani6@gmail.com"
+            aria-label="Email"
+            className="text-slate-400 hover:text-blue-400 transition-colors"
+          >
+            <img
+              src={GmailIcon}
+              alt="Gmail Icon"
               className="w-5 h-5 object-contain"
             />
           </a>

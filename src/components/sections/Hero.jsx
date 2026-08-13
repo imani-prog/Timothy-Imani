@@ -1,3 +1,6 @@
+import ProfileImage from '../../assets/Profile.png'
+import GmailIcon from '../../assets/gmail.png'
+
 const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
 
 export default function Hero() {
@@ -8,7 +11,7 @@ export default function Hero() {
     >
       <div className="max-w-4xl mx-auto text-center">
         <img
-          src="/assets/Profile.png"
+          src={ProfileImage}
           alt="Timothy Imani"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-6 border-4 border-white dark:border-slate-800 shadow-lg"
         />
@@ -77,7 +80,7 @@ export default function Hero() {
             title="Email"
           >
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gmail/gmail-original.svg"
+              src={GmailIcon}
               alt="Gmail Icon"
               className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
             />
