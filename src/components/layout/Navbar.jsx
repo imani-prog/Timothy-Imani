@@ -17,7 +17,7 @@ export default function Navbar() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/80 dark:bg-slate-900/80 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
-      <nav className="max-w-6xl mx-auto px-5 sm:px-8 h-16 flex items-center justify-between">
+      <nav className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
         <a href="#" className="font-bold font-serif text-lg text-slate-900 dark:text-white">
           Timothy Imani <span aria-hidden="true"></span>
         </a>
@@ -40,9 +40,9 @@ export default function Navbar() {
           <button
             onClick={() => setIsDark(!isDark)}
             aria-label="Toggle dark mode"
-            className="p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
+            className="p-2 rounded-lg text-slate-600 dark:text-slate-300 cursor-pointer transition-colors"
           >
-            {isDark ? <Sun size={18} /> : <Moon size={18} />}
+            {isDark ? <Sun size={28} /> : <Moon size={28} />}
           </button>
         </div>
 
