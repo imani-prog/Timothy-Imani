@@ -60,7 +60,7 @@ export default function About() {
                 href={WHATSAPP_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="w-full text-center px-6 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
+                className="text-center px-4 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
               >
                 HIRE ME
               </a>
@@ -68,7 +68,7 @@ export default function About() {
                 href={CV_URL}
                 target="_blank"
                 rel="noreferrer"
-                className="w-full text-center px-6 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
+                className="text-center px-4 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
               >
                 DOWNLOAD CV
               </a>
@@ -104,7 +104,7 @@ export default function About() {
                   Profile
                 </h4>
                 <p className="text-base leading-relaxed text-slate-600 dark:text-slate-300">
-                  Since beginning my journey as a developer nearly one year ago, I've worked on
+                  Since beginning my journey as a Software Engineer nearly one year ago, I've worked on
                   multiple projects and collaborated with teams to build practical digital solutions.
                   My focus is creating applications that solve real problems while maintaining clean
                   architecture, performance, and long-term maintainability.
