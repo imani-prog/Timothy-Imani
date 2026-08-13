@@ -1,4 +1,4 @@
-import ProfileImage from '../../assets/Profile.png'
+
 import GmailIcon from '../../assets/gmail.png'
 import { Sunrise, Sun, MoonStar } from 'lucide-react'
 
@@ -21,11 +21,11 @@ export default function Hero() {
       className="pt-32 font-serif pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
     >
       <div className="max-w-4xl mx-auto text-center">
-        <img
+        {/* <img
           src={ProfileImage}
           alt="Timothy Imani"
           className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-6 border-4 border-white dark:border-slate-800 shadow-lg"
-        />
+        /> */}
 
         <div
           id="greeting"
@@ -49,11 +49,11 @@ export default function Hero() {
             <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
               SOFTWARE ENGINEER
             </span>
-            <span className="hidden sm:block h-8 sm:h-10 w-[3px] bg-slate-400 dark:bg-slate-600" />
+            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400 dark:bg-slate-600" />
             <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
               CLOUD ENTHUSIAST
             </span>
-            <span className="hidden sm:block h-8 sm:h-10 w-[3px] bg-slate-400 dark:bg-slate-600" />
+            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400 dark:bg-slate-600" />
             <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
               WEB DEVELOPER
             </span>

@@ -1,60 +1,131 @@
+import { Phone, Mail, GraduationCap } from 'lucide-react'
+import ProfileImage from '../../assets/Profile.png'
+import { skillGroups } from '../../data/skillsData'
 
 const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
 const WHATSAPP_URL = 'https://wa.me/254743669252'
 
 export default function About() {
   return (
-    <section
-      id="about"
-      className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900"
-    >
-      <div className="max-w-3xl mx-auto text-center">
-        <h2 className="text-sm font-semibold uppercase tracking-wider text-blue-700 dark:text-blue-400">
-          About Me
-        </h2>
-        <h3 className="mt-2 text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
-          Building Reliable Software, End to End
-        </h3>
+    <section id="about" className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900 font-serif">
+      <div className="max-w-6xl mx-auto">
+        <div className="text-center mb-12">
+          <h2 className="font-semibold uppercase tracking-[0.22em] text-blue-700 dark:text-blue-400">
+            About Me
+          </h2>
+          <h3 className="mt-4 text-3xl sm:text-5xl font-light tracking-tight text-slate-900 dark:text-white">
+            Let me introduce myself.
+          </h3>
+        </div>
 
-        <p className="mt-6 text-base sm:text-lg leading-relaxed text-slate-600 dark:text-slate-300">
-          As a Software Engineer and Web Developer with a Database
-          Administrator mindset, I enjoy designing full-stack solutions that
-          are fast, reliable, and easy to use. I build APIs, craft responsive
-          interfaces, and tune databases and queries for performance and
-          integrity. As an entry-level professional, I thrive on learning new
-          technologies, exploring better architectures, and improving system
-          efficiency. I am a tech enthusiast who loves solving complex
-          problems and turning ideas into products.
-        </p>
+        <div className="grid lg:grid-cols-[280px_1fr] gap-12 lg:gap-16 items-start">
+          <div className="flex flex-col items-center lg:items-start">
+            <img
+              src={ProfileImage}
+              alt="Timothy Imani"
+              className="w-40 h-40 sm:w-48 sm:h-48 rounded-full object-cover border-4 border-white dark:border-slate-800 shadow-lg"
+            />
 
-        <blockquote className="mt-8 border-l-4 border-blue-700 pl-4 text-left max-w-xl mx-auto">
-          <p className="italic text-slate-700 dark:text-slate-300">
-            "Data is not information. Information is not knowledge. Knowledge
-            is not wisdom."
-          </p>
-          <cite className="block mt-2 text-sm text-slate-500 dark:text-slate-400 not-italic">
-            — Clifford Stoll
-          </cite>
-        </blockquote>
+            <div className="mt-8 w-full space-y-4">
+              <div className="flex items-start gap-3">
+                <GraduationCap size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                <span className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                  BSc Computer Science, Machakos University
+                </span>
+              </div>
 
-         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
-          <a
-            href={WHATSAPP_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto px-7 py-3 rounded-[26px] bg-blue-700 text-white text-lg font-semibold shadow-md hover:bg-blue-800 transition-all duration-200"
-          >
-            HIRE ME
-          </a>
+              <div className="flex items-start gap-3">
+                <Phone size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                <a
+                  href="tel:+254743669252"
+                  className="text-sm text-slate-600 dark:text-slate-300 hover:text-blue-700 dark:hover:text-blue-400"
+                >
+                  +254 743 669 252
+                </a>
+              </div>
 
-          <a
-            href={CV_URL}
-            target="_blank"
-            rel="noreferrer"
-            className="w-full sm:w-auto px-7 py-3 rounded-[26px] border border-slate-300 bg-slate-200 text-slate-900 text-lg font-semibold shadow-md hover:bg-slate-300 transition-all duration-200"
-          >
-            DOWNLOAD CV
-          </a>
+              <div className="flex items-start gap-3">
+                <Mail size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                <a
+                  href="mailto:timothyimani6@gmail.com"
+                  className="text-sm text-slate-600 dark:text-slate-300 hover:text-blue-700 dark:hover:text-blue-400 break-all"
+                >
+                  timothyimani6@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <div className="mt-8 flex flex-col w-full gap-3">
+              <a
+                href={WHATSAPP_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="w-full text-center px-6 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
+              >
+                HIRE ME
+              </a>
+              <a
+                href={CV_URL}
+                target="_blank"
+                rel="noreferrer"
+                className="w-full text-center px-6 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
+              >
+                DOWNLOAD CV
+              </a>
+            </div>
+          </div>
+
+          <div className="space-y-10">
+            <div className="space-y-5">
+              <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                I'm a skilled professional with a diverse technical background. My expertise spans
+                <span className="font-semibold text-slate-900 dark:text-white"> Software Engineering</span>,
+                <span className="font-semibold text-slate-900 dark:text-white"> Cloud Systems</span>, and
+                <span className="font-semibold text-slate-900 dark:text-white"> Web Development</span>.
+              </p>
+
+              <p className="text-lg leading-relaxed text-slate-600 dark:text-slate-300">
+                  I like taking a problem apart until it's simple. Whether it's a slow
+                  query, a fragile deployment, or an interface that confuses people, my
+                  instinct is to trace it back to the root cause rather than patch the
+                  symptom. That habit shapes how I build software. I design systems
+                  end to end, from the database schema up through the API to the
+                  interface, because understanding every layer is what lets me actually
+                  fix things instead of guessing. I care about software that holds up
+                  under real use: code that's easy to reason about, data that stays
+                  consistent, and systems that keep running without someone babysitting
+                  them.
+              </p>
+            </div>
+
+            <div className="grid md:grid-cols-2 gap-8 md:gap-12">
+              <div>
+                <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-900 dark:text-white mb-4">
+                  Profile
+                </h4>
+                <p className="text-base leading-relaxed text-slate-600 dark:text-slate-300">
+                  Since beginning my journey as a developer nearly one year ago, I've worked on
+                  multiple projects and collaborated with teams to build practical digital solutions.
+                  My focus is creating applications that solve real problems while maintaining clean
+                  architecture, performance, and long-term maintainability.
+                </p>
+              </div>
+
+              <div>
+                <h4 className="text-sm font-semibold uppercase tracking-[0.18em] text-slate-900 dark:text-white mb-4">
+                  Skills
+                </h4>
+                <div className="space-y-3 text-base text-slate-600 dark:text-slate-300">
+                  {skillGroups.map((group) => (
+                    <div key={group.main} className="leading-relaxed">
+                      <span className="font-semibold text-slate-900 dark:text-white">{group.main}</span>
+                      <span className="text-slate-500 dark:text-slate-400"> ({group.related.join(', ')})</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>

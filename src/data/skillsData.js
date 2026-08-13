@@ -1,66 +1,82 @@
-// Icon keys map to lucide-react components in Skills.jsx
+export const skillGroups = [
+
+   {
+    main: 'System Design & Architecture',
+    related: ['Microservices', 'Monolithic Architecture', 'Event-Driven Architecture', 'System Scalability & Performance'],
+  },
+
+  {
+    main: 'Java & Backend Development',
+    related: ['Spring Boot', 'Spring Data JPA', 'REST API design & security',  'Spring Cloud'],
+  },
+  
+  {
+    main: 'Frontend Development',
+    related: ['HTML5', 'CSS3','JavaScript', 'Tailwind CSS','React.js','jQuery','Responsive Design'],
+  },
+  {
+    main: 'Databases Administration',
+    related: ['PostgreSQL', 'MySQL','Database Design & Optimization'],
+  },
+
+  {
+    main: 'DevOps & Cloud',
+    related: ['Docker', 'GitHub Actions', 'Google Cloud Platform', ''],
+  },
+  {
+    main: 'Tools',
+    related: ['Git & GitHub', 'VS Code', 'IntelliJ IDEA', 'Postman'],
+  },
+]
+
 export const skillCategories = [
   {
-    title: 'Frontend Development',
+    title: 'Frontend',
     icon: 'Monitor',
     groups: [
       {
-        heading: 'Core Frontend',
-        items: ['HTML5', 'CSS3 & SCSS', 'JavaScript (ES6+)', 'Responsive Design'],
+        heading: 'Core stack',
+        items: ['HTML5', 'CSS3', 'JavaScript', 'React.js'],
       },
       {
-        heading: 'Frontend Frameworks',
-        items: ['React.js', 'jQuery', 'Bootstrap', 'Tailwind CSS'],
+        heading: 'Styling',
+        items: ['Tailwind CSS', 'Bootstrap', 'Responsive Design'],
       },
     ],
   },
   {
-    title: 'Backend Development',
+    title: 'Backend',
     icon: 'Server',
     groups: [
+     
       {
-        heading: 'Java Ecosystem',
-        items: ['Java (Core)', 'Spring Boot', 'Spring Data JPA', 'Spring Security'],
-      },
-      {
-        heading: 'Python Ecosystem',
-        items: ['Python (Core)', 'Django', 'Flask', 'FastAPI'],
+        heading: 'Frameworks',
+        items: ['Spring Boot', 'Django', 'Flask', 'FastAPI'],
       },
     ],
   },
   {
-    title: 'Database & Data Engineering',
+    title: 'Data & Storage',
     icon: 'Database',
     groups: [
       {
-        heading: 'Database Systems',
-        items: ['SQL Server', 'MySQL', 'PostgreSQL', 'MongoDB'],
+        heading: 'Databases',
+        items: ['PostgreSQL', 'MySQL', 'SQL Server', 'MongoDB'],
       },
-      {
-        heading: 'Data Engineering',
-        items: ['Apache Kafka', 'ETL Pipelines', 'Data Warehousing', 'SQL Optimization'],
-      },
-      {
-        heading: 'Java Microservices',
-        items: ['Spring Cloud', 'API Gateway', 'Service Discovery', 'Circuit Breaker'],
-      },
+      
     ],
   },
   {
-    title: 'DevOps & Development Tools',
+    title: 'DevOps',
     icon: 'GitBranch',
     groups: [
       {
-        heading: 'Version Control & CI/CD',
-        items: ['Git & GitHub', 'Docker', 'GitHub Actions', 'Azure DevOps'],
+        heading: 'Delivery',
+        items: ['Docker', 'GitHub Actions', 'GCP', ''],
       },
       {
-        heading: 'Cloud & Deployment',
-        items: ['Google Cloud Platform', 'GCP Virtual Machines', 'Cloud Deployment', 'Server Management'],
-      },
-      {
-        heading: 'Development Environment',
-        items: ['VS Code', 'IntelliJ IDEA', 'Postman', 'Linux/Windows'],
+        heading: 'Workflow',
+        items: ['Git', 'GitHub', 'VS Code', 'Postman'],
       },
     ],
   },
