@@ -9,7 +9,7 @@ export default function Contact() {
           </p>
         </div>
 
-        <form className="space-y-5 rounded-2xl border border-gray-200  p-5 sm:p-7">
+        <form className="space-y-5 border border-gray-200  p-5 sm:p-7">
           <div className="grid gap-5 sm:grid-cols-2">
             <div>
               <label htmlFor="fullName" className="mb-2 block text-sm font-medium text-slate-700">

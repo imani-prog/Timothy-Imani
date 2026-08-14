@@ -4,7 +4,7 @@ export default function ProjectCard({ project }) {
   const { name, image, techStack, description, liveUrl, githubUrl } = project
 
   return (
-    <div className="bg-white  rounded-xl border border-slate-200 overflow-hidden flex flex-col hover:shadow-lg transition-shadow">
+    <div className="bg-white border border-slate-200 overflow-hidden flex flex-col hover:shadow-lg transition-shadow">
       <img
         src={image}
         alt={name}
