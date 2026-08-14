@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
             {techStack.map((tech) => (
               <span
                 key={tech}
-                className="text-[11px] px-2.5 py-1 rounded-full bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 font-medium"
+                className="text-[11px] px-2.5 py-1 rounded-full bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 font-medium"
               >
                 {tech}
               </span>
@@ -40,7 +40,7 @@ export default function ProjectCard({ project }) {
               href={liveUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-blue-700 dark:text-blue-400 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 dark:text-orange-400 hover:underline"
             >
               <ExternalLink size={15} />
               Live Site
@@ -51,7 +51,7 @@ export default function ProjectCard({ project }) {
               href={githubUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-slate-600 dark:text-slate-300 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 dark:text-orange-400 hover:underline"
             >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"

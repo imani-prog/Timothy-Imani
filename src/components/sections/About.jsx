@@ -10,7 +10,7 @@ export default function About() {
     <section id="about" className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900 font-serif">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-12">
-          <h2 className="font-semibold uppercase tracking-[0.22em] text-blue-700 dark:text-blue-400">
+          <h2 className="font-semibold uppercase tracking-[0.22em] text-orange-700 dark:text-orange-400">
             About Me
           </h2>
           <h3 className="mt-4 text-3xl sm:text-5xl font-light tracking-tight text-slate-900 dark:text-white">
@@ -60,34 +60,34 @@ export default function About() {
 
                 <div className="space-y-4">
                   <div className="flex items-start gap-3">
-                    <GraduationCap size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                    <GraduationCap size={18} className="mt-0.5 text-orange-700 dark:text-orange-400 shrink-0" />
                     <span className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                       BSc Computer Science, Machakos University
                     </span>
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <Phone size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                    <Phone size={18} className="mt-0.5 text-orange-700 dark:text-orange-400 shrink-0" />
                     <a
                       href="tel:+254743669252"
-                      className="text-sm text-slate-600 dark:text-slate-300 hover:text-blue-700 dark:hover:text-blue-400"
+                      className="text-sm text-slate-600 dark:text-slate-300 hover:text-orange-700 dark:hover:text-orange-400"
                     >
                       +254 743 669 252
                     </a>
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <Mail size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                    <Mail size={18} className="mt-0.5 text-orange-700 dark:text-orange-400 shrink-0" />
                     <a
                       href="mailto:timothyimani128@gmail.com"
-                      className="text-sm text-slate-600 dark:text-slate-300 hover:text-blue-700 dark:hover:text-blue-400 break-all"
+                      className="text-sm text-slate-600 dark:text-slate-300 hover:text-orange-700 dark:hover:text-orange-400 break-all"
                     >
                       timothyimani128@gmail.com
                     </a>
                   </div>
 
                   <div className="flex items-start gap-3">
-                    <MapPin size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                    <MapPin size={18} className="mt-0.5 text-orange-700 dark:text-orange-400 shrink-0" />
                     <span className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
                       Nairobi, Kenya
                     </span>
@@ -96,15 +96,15 @@ export default function About() {
                   <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
                     <div className="grid grid-cols-3 gap-4 text-center sm:text-left">
                       <div>
-                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">+5</div>
+                        <div className="text-2xl font-semibold text-orange-600 dark:text-white">+5</div>
                         <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Projects</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">6</div>
+                        <div className="text-2xl font-semibold text-orange-600 dark:text-white">6</div>
                         <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Stacks</div>
                       </div>
                       <div>
-                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">1+</div>
+                        <div className="text-2xl font-semibold text-orange-600 dark:text-white">1+</div>
                         <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Years</div>
                       </div>
                     </div>
@@ -133,7 +133,7 @@ export default function About() {
               href={WHATSAPP_URL}
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:flex-1 min-w-0 text-center px-2 py-2.5 sm:py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
+              className="w-full sm:flex-1 min-w-0 text-center px-2 py-2.5 sm:py-3 rounded-full bg-orange-700 text-white text-sm font-semibold shadow-sm hover:bg-orange-800 transition-all duration-200"
             >
               HIRE ME
             </a>

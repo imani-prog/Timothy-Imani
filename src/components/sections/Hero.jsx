@@ -1,6 +1,5 @@
 import CodingAnimation from '../ui/CodingAnimation'
 import { Sunrise, Sun, MoonStar } from 'lucide-react'
-import GmailIcon from '../../assets/gmail.png'
 
 function getGreeting() {
   const hour = new Date().getHours()
@@ -22,12 +21,12 @@ export default function Hero() {
           id="greeting"
           className="flex items-center justify-center gap-2 sm:gap-3 mb-4 text-slate-700 dark:text-slate-200"
         >
-          <span className="text-xl sm:text-3xl font-medium text-blue-700 dark:text-blue-400">
+          <span className="text-xl sm:text-3xl font-medium text-orange-600 dark:text-orange-400">
             {greetingText}
           </span>
           <GreetingIcon
             size={26}
-            className="text-blue-700 dark:text-blue-400 sm:w-8 sm:h-8"
+            className="text-orange-700 dark:text-orange-400 sm:w-8 sm:h-8"
           />
         </div>
 
@@ -59,7 +58,7 @@ export default function Hero() {
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
             href="#about"
-            className="w-[65%] max-w-[320px] sm:w-auto px-7 py-3 rounded-[26px] bg-blue-700 text-white text-lg font-semibold shadow-md hover:bg-blue-800 transition-all duration-200"
+            className="w-[65%] max-w-[320px] sm:w-auto px-7 py-3 rounded-[26px] bg-orange-600 text-white text-lg font-semibold shadow-md hover:bg-orange-800 transition-all duration-200"
           >
             More About Me
           </a>
@@ -111,7 +110,7 @@ export default function Hero() {
                 className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            
+
             <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/medium/000000"

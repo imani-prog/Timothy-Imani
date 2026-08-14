@@ -6,7 +6,7 @@ export default function Projects() {
     <section id="projects" className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900 font-serif">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-4">
-          <h2 className=" font-semibold uppercase tracking-wider text-blue-700 dark:text-blue-400">
+          <h2 className=" font-semibold uppercase tracking-wider text-orange-700 dark:text-orange-400">
             Sample Projects
           </h2>
           <h3 className="mt-2 text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
