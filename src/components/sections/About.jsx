@@ -1,4 +1,4 @@
-import { Phone, Mail, GraduationCap } from 'lucide-react'
+import { Phone, Mail, GraduationCap, MapPin } from 'lucide-react'
 import ProfileImage from '../../assets/Profile.png'
 import { skillGroups } from '../../data/skillsData'
 
@@ -36,6 +36,7 @@ export default function About() {
               code that's easy to reason about, data that stays consistent, and systems that keep running without
               someone babysitting them.
             </p>
+
           </div>
 
           <div className="grid lg:grid-cols-[1.1fr_0.9fr] gap-10 lg:gap-14 items-start">
@@ -83,6 +84,30 @@ export default function About() {
                     >
                       timothyimani6@gmail.com
                     </a>
+                  </div>
+
+                  <div className="flex items-start gap-3">
+                    <MapPin size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
+                    <span className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed">
+                      Nairobi, Kenya
+                    </span>
+                  </div>
+
+                  <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
+                    <div className="grid grid-cols-3 gap-4 text-center sm:text-left">
+                      <div>
+                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">+5</div>
+                        <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Projects</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">6</div>
+                        <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Stacks</div>
+                      </div>
+                      <div>
+                        <div className="text-2xl font-semibold text-slate-900 dark:text-white">1+</div>
+                        <div className="text-xs uppercase tracking-[0.18em] text-slate-500 dark:text-slate-400">Years</div>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
