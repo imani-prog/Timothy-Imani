@@ -1,62 +1,62 @@
 export default function Contact() {
   return (
-    <section id="contact" className="bg-white font-serif dark:bg-slate-900 text-slate-900 dark:text-white">
+    <section id="contact" className="bg-white font-serif text-slate-900">
       <div className="max-w-3xl mx-auto px-5 sm:px-8 py-20">
         <div className="text-center mb-10">
           <h2 className="text-3xl sm:text-4xl text-orange-600 font-bold tracking-tight">Contact Me</h2>
-          <p className="mt-4 text-base sm:text-lg font-semibold dark:text-slate-300">
+          <p className="mt-4 text-base sm:text-lg font-semibold text-slate-600">
             Let&apos;s talk about software engineering &amp; building great products.
           </p>
         </div>
 
-        <form className="space-y-5 rounded-2xl border border-gray-200  p-5 dark:border-slate-700 dark:bg-slate-800/60 sm:p-7">
+        <form className="space-y-5 rounded-2xl border border-gray-200  p-5 sm:p-7">
           <div className="grid gap-5 sm:grid-cols-2">
             <div>
-              <label htmlFor="fullName" className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">
+              <label htmlFor="fullName" className="mb-2 block text-sm font-medium text-slate-700">
                 Full Name
               </label>
               <input
                 id="fullName"
                 type="text"
                 placeholder="Your name"
-                className="w-full rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent bg-white px-4 py-3 text-sm text-slate-900 transition dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:focus:ring-orange-900"
+                className="w-full rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent bg-white px-4 py-3 text-sm text-slate-900 transition"
               />
             </div>
 
             <div>
-              <label htmlFor="email" className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">
+              <label htmlFor="email" className="mb-2 block text-sm font-medium text-slate-700">
                 Email
               </label>
               <input
                 id="email"
                 type="email"
                 placeholder="you@example.com"
-                className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent outline-none transition  dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:focus:ring-orange-900"
+                className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent outline-none transition"
               />
             </div>
           </div>
 
           <div>
-            <label htmlFor="subject" className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">
+            <label htmlFor="subject" className="mb-2 block text-sm font-medium text-slate-700">
               Subject
             </label>
             <input
               id="subject"
               type="text"
               placeholder="Project inquiry"
-              className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent outline-none transition  dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:focus:ring-orange-900"
+              className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm text-slate-900 focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent outline-none transition"
             />
           </div>
 
           <div>
-            <label htmlFor="message" className="mb-2 block text-sm font-medium text-slate-700 dark:text-slate-200">
+            <label htmlFor="message" className="mb-2 block text-sm font-medium text-slate-700">
               Message
             </label>
             <textarea
               id="message"
               rows="5"
               placeholder="Tell me a little about your project..."
-              className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent text-slate-900 outline-none transition  dark:border-slate-600 dark:bg-slate-900 dark:text-white dark:focus:ring-orange-900"
+              className="w-full rounded-xl border border-slate-300 bg-white px-4 py-3 text-sm focus:outline-none focus:ring-2 focus:ring-orange-700 focus:border-transparent text-slate-900 outline-none transition"
             />
           </div>
 

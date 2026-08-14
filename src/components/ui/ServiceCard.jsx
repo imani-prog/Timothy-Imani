@@ -7,15 +7,15 @@ export default function ServiceCard({ service }) {
 
   return (
     <div className="flex-1 px-6 py-8 text-center sm:text-left">
-      <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl  dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 mb-5">
+      <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl text-orange-700 mb-5">
         <Icon size={44} />
       </div>
 
-      <h4 className="text-lg font-semibold text-slate-900 dark:text-white">
+      <h4 className="text-lg font-semibold text-slate-900">
         {service.title}
       </h4>
 
-      <p className="mt-3 text-sm text-slate-600 dark:text-slate-400 leading-relaxed">
+      <p className="mt-3 text-sm text-slate-600 leading-relaxed">
         {service.summary}
       </p>
 
@@ -23,9 +23,9 @@ export default function ServiceCard({ service }) {
         {service.points.map((point) => (
           <li
             key={point}
-            className="text-sm text-slate-600 dark:text-slate-300 leading-snug flex gap-2.5"
+            className="text-sm text-slate-600 leading-snug flex gap-2.5"
           >
-            <span className="mt-2 w-1 h-1 rounded-full bg-orange-700 dark:bg-orange-400 shrink-0" />
+            <span className="mt-2 w-1 h-1 rounded-full bg-orange-700 shrink-0" />
             {point}
           </li>
         ))}

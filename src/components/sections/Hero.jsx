@@ -14,37 +14,37 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="pt-32 font-serif pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
+      className="pt-32 font-serif pb-20 px-5 sm:px-8"
     >
       <div className="max-w-4xl mx-auto text-center">
         <div
           id="greeting"
-          className="flex items-center justify-center gap-2 sm:gap-3 mb-4 text-slate-700 dark:text-slate-200"
+          className="flex items-center justify-center gap-2 sm:gap-3 mb-4 text-slate-700"
         >
-          <span className="text-xl sm:text-3xl font-medium text-orange-600 dark:text-orange-400">
+          <span className="text-xl sm:text-3xl font-medium text-orange-600">
             {greetingText}
           </span>
           <GreetingIcon
             size={26}
-            className="text-orange-700 dark:text-orange-400 sm:w-8 sm:h-8"
+            className="text-orange-700 sm:w-8 sm:h-8"
           />
         </div>
 
         <div className="inline-flex flex-col items-center w-full">
-          <h1 className="text-4xl sm:text-7xl font-extrabold text-slate-900 dark:text-white leading-none break-words px-2">
+          <h1 className="text-4xl sm:text-7xl font-extrabold text-slate-900 leading-none break-words px-2">
             I'm Timothy Imani.
           </h1>
 
           <div className="mt-5 sm:mt-6 w-full flex flex-col items-center justify-center gap-2 sm:flex-row sm:gap-4">
-            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+            <span className="text-base sm:text-2xl font-medium text-slate-700 uppercase tracking-tight">
               SOFTWARE ENGINEER
             </span>
-            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400 dark:bg-slate-600" />
-            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400" />
+            <span className="text-base sm:text-2xl font-medium text-slate-700 uppercase tracking-tight">
               CLOUD ENTHUSIAST
             </span>
-            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400 dark:bg-slate-600" />
-            <span className="text-base sm:text-2xl font-medium text-slate-700 dark:text-slate-200 uppercase tracking-tight">
+            <span className="hidden sm:block h-8 sm:h-10 w-0.75 bg-slate-400" />
+            <span className="text-base sm:text-2xl font-medium text-slate-700 uppercase tracking-tight">
               WEB DEVELOPER
             </span>
           </div>

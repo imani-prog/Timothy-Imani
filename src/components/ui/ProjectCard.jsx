@@ -4,7 +4,7 @@ export default function ProjectCard({ project }) {
   const { name, image, techStack, description, liveUrl, githubUrl } = project
 
   return (
-    <div className="bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 overflow-hidden flex flex-col hover:shadow-lg dark:hover:shadow-slate-950/50 transition-shadow">
+    <div className="bg-white  rounded-xl border border-slate-200 overflow-hidden flex flex-col hover:shadow-lg transition-shadow">
       <img
         src={image}
         alt={name}
@@ -13,7 +13,7 @@ export default function ProjectCard({ project }) {
       />
 
       <div className="p-6 flex flex-col flex-1">
-        <h4 className="font-semibold text-lg text-slate-900 dark:text-white">
+        <h4 className="font-semibold text-lg text-slate-900">
           {name}
         </h4>
 
@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
             {techStack.map((tech) => (
               <span
                 key={tech}
-                className="text-[11px] px-2.5 py-1 rounded-full bg-orange-50 dark:bg-orange-900/30 text-orange-700 dark:text-orange-400 font-medium"
+                className="text-[11px] px-2.5 py-1 rounded-full bg-orange-50 text-orange-700 font-medium"
               >
                 {tech}
               </span>
@@ -30,7 +30,7 @@ export default function ProjectCard({ project }) {
           </div>
         )}
 
-        <p className="mt-4 text-sm text-slate-600 dark:text-slate-300 leading-relaxed flex-1">
+        <p className="mt-4 text-sm text-slate-600 leading-relaxed flex-1">
           {description}
         </p>
 
@@ -40,7 +40,7 @@ export default function ProjectCard({ project }) {
               href={liveUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 dark:text-orange-400 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 hover:underline"
             >
               <ExternalLink size={15} />
               Live Site
@@ -51,7 +51,7 @@ export default function ProjectCard({ project }) {
               href={githubUrl}
               target="_blank"
               rel="noreferrer"
-              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 dark:text-orange-400 hover:underline"
+              className="inline-flex items-center gap-1.5 text-sm font-medium text-orange-700 hover:underline"
             >
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
