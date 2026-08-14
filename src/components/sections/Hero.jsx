@@ -101,7 +101,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="mailto:timothyimani6@gmail.com"
+            href="mailto:timothyimani128@gmail.com"
             aria-label="Email"
             className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
             title="Email"

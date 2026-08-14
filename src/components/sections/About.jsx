@@ -79,10 +79,10 @@ export default function About() {
                   <div className="flex items-start gap-3">
                     <Mail size={18} className="mt-0.5 text-blue-700 dark:text-blue-400 shrink-0" />
                     <a
-                      href="mailto:timothyimani6@gmail.com"
+                      href="mailto:timothyimani128@gmail.com"
                       className="text-sm text-slate-600 dark:text-slate-300 hover:text-blue-700 dark:hover:text-blue-400 break-all"
                     >
-                      timothyimani6@gmail.com
+                      timothyimani128@gmail.com
                     </a>
                   </div>
 
