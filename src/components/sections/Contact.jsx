@@ -1,4 +1,5 @@
 import { Heart, Mail } from 'lucide-react'
+import GmailIcon from '../../assets/gmail.png'
 
 export default function Contact() {
   return (
@@ -73,59 +74,58 @@ export default function Contact() {
         </form>
 
         <div className="mt-8 text-center">
-          {/* <div className="mb-3 text-sm text-slate-600 dark:text-slate-300">
-            <a href="mailto:timothyimani128@gmail.com" className="text-blue-600 hover:underline dark:text-blue-400">
-              timothyimani128@gmail.com
-            </a>
-          </div> */}
-
-          <div className="mb-5 text-sm text-slate-600 dark:text-slate-300">Nairobi, Kenya</div>
 
           <div className="flex items-center justify-center gap-5">
-            <a href="https://github.com/imani-prog" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex items-center justify-center text-slate-700 transition hover:text-blue-600 dark:text-slate-200 dark:hover:text-blue-400">
+            <a href="https://github.com/imani-prog" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex items-center justify-center p-1.5 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 alt="GitHub"
                 className="h-10 w-10 object-contain"
               />
             </a>
-            <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex items-center justify-center text-slate-700 transition hover:text-blue-600 dark:text-slate-200 dark:hover:text-blue-400">
+            <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex items-center justify-center p-1.5 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
                 className="h-10 w-10 object-contain"
               />
             </a>
-            <a href="https://x.com/Imani_dvp" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex items-center justify-center text-slate-700 transition hover:text-blue-600 dark:text-slate-200 dark:hover:text-blue-400">
+            <a href="https://x.com/Imani_dvp" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex items-center justify-center p-1.5 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
                 alt="Twitter"
                 className="h-10 w-10 object-contain"
               />
             </a>
-            <a href="https://www.reddit.com/user/KindlyAd3304/" target="_blank" rel="noreferrer" aria-label="Reddit" className="flex items-center justify-center rounded-full bg-[#FF4500]/10 p-1.5 transition hover:scale-105">
+            <a href="https://www.reddit.com/user/KindlyAd3304/" target="_blank" rel="noreferrer" aria-label="Reddit" className="flex items-center justify-center transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/reddit/FF4500"
                 alt="Reddit"
                 className="h-10 w-10 object-contain"
               />
             </a>
-            <a href="https://t.me/Gladiator_CTO" target="_blank" rel="noreferrer" aria-label="Telegram" className="flex items-center justify-center rounded-full bg-[#26A5E4]/10 p-1.5 transition hover:scale-105">
+            <a href="https://t.me/Gladiator_CTO" target="_blank" rel="noreferrer" aria-label="Telegram" className="flex items-center justify-center p-1.5 transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/telegram/26A5E4"
                 alt="Telegram"
                 className="h-10 w-10 object-contain"
               />
             </a>
-            <a href="mailto:timothyimani128@gmail.com" aria-label="Email" className="flex h-10 w-10 items-center justify-center text-slate-700 transition hover:text-blue-600 dark:text-slate-200 dark:hover:text-blue-400">
-              <Mail size={47} />
+
+            <a href="mailto:timothyimani128@gmail.com" aria-label="Email" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+              <img
+                src={GmailIcon}
+                alt="Gmail"
+                className="h-10 w-10 object-contain"
+              />
             </a>
           </div>
         </div>
       </div>
-      <div className="border-t border-slate-200 dark:border-slate-700">
-        <p className="text-center text-xs text-slate-500 py-6 dark:text-slate-400">
-          {new Date().getFullYear()} Made with <Heart size={12} className="inline-block align-middle" /> by Timothy Imani.
+      <div className="border-t border-slate-200 dark:border-slate-700 bg-gray-300">
+        <p className="text-center py-6">
+          &copy;
+          {new Date().getFullYear()} Timothy Imani.
         </p>
       </div>
     </section>
