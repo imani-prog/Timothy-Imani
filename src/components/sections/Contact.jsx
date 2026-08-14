@@ -74,62 +74,62 @@ export default function Contact() {
 
         <div className="mt-8 text-center">
 
-          <div className="flex items-center justify-center gap-5">
-            <a href="https://github.com/imani-prog" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
+            <a href="https://github.com/imani-prog" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 alt="GitHub"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://wa.me/+254743669252" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="https://wa.me/+254743669252" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons whatsapp/whatsapp-original.svg"
+                src="https://cdn.simpleicons.org/whatsapp/25D366"
                 alt="WhatsApp"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://x.com/Imani_dvp" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="https://x.com/Imani_dvp" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
                 alt="Twitter"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://www.reddit.com/user/KindlyAd3304/" target="_blank" rel="noreferrer" aria-label="Reddit" className="flex items-center justify-center transition hover:scale-105">
+            <a href="https://www.reddit.com/user/KindlyAd3304/" target="_blank" rel="noreferrer" aria-label="Reddit" className="flex shrink-0 items-center justify-center transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/reddit/FF4500"
                 alt="Reddit"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://t.me/Gladiator_CTO" target="_blank" rel="noreferrer" aria-label="Telegram" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="https://t.me/Gladiator_CTO" target="_blank" rel="noreferrer" aria-label="Telegram" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/telegram/26A5E4"
                 alt="Telegram"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
 
-            <a href="mailto:timothyimani128@gmail.com" aria-label="Email" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="mailto:timothyimani128@gmail.com" aria-label="Email" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src={GmailIcon}
                 alt="Gmail"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
-            <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+            <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/medium/000000"
                 alt="Medium"
-                className="h-10 w-10 object-contain"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
               />
             </a>
           </div>
