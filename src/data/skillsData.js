@@ -24,6 +24,11 @@ export const skillGroups = [
     related: ['Docker', 'GitHub Actions', 'Google Cloud Platform', 'CI/CD Pipelines', 'Vercel','Render'],
   },
   {
+    main: 'IT Support & Troubleshooting',
+    related: ['Hardware & Software Troubleshooting', 'Network Configuration', 'System Maintenance', 'Technical Support'],
+  },
+
+  {
     main: 'Tools',
     related: ['Git & GitHub', 'VS Code', 'IntelliJ IDEA', 'Postman','PgAdmin'],
   },
