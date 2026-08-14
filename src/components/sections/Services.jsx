@@ -25,14 +25,14 @@ export default function Services() {
           ))}
         </div>
 
-        <div className="text-center mt-14">
+        {/* <div className="text-center mt-14">
           <a
             href="#contact"
             className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-700 text-white font-medium hover:bg-blue-800 transition-colors"
           >
             Let's discuss your project
           </a>
-        </div>
+        </div> */}
       </div>
     </section>
   )
