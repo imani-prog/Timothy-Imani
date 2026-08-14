@@ -1,4 +1,3 @@
-import { Heart, Mail } from 'lucide-react'
 import GmailIcon from '../../assets/gmail.png'
 
 export default function Contact() {
@@ -83,6 +82,13 @@ export default function Contact() {
                 className="h-10 w-10 object-contain"
               />
             </a>
+            <a href="https://wa.me/+254743669252" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons whatsapp/whatsapp-original.svg"
+                alt="WhatsApp"
+                className="h-10 w-10 object-contain"
+              />
+            </a>
             <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex items-center justify-center p-1.5 transition hover:scale-105">
               <img
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
@@ -116,6 +122,13 @@ export default function Contact() {
               <img
                 src={GmailIcon}
                 alt="Gmail"
+                className="h-10 w-10 object-contain"
+              />
+            </a>
+            <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex items-center justify-center p-1.5 transition hover:scale-105">
+              <img
+                src="https://cdn.simpleicons.org/medium/000000"
+                alt="Medium"
                 className="h-10 w-10 object-contain"
               />
             </a>
