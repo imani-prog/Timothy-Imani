@@ -22,12 +22,12 @@ export default function Experience() {
             {experience.map((job) => (
               <div key={job.company} className="relative pl-14">
                 {/* Timeline dot */}
-                <div className="absolute left-0 top-1 w-10 h-10 rounded-full bg-orange-700 flex items-center justify-center">
-                  <Briefcase size={18} className="text-white" />
+                <div className="absolute left-0 top-1 w-10 h-10 flex items-center justify-center">
+                  <Briefcase size={28} className="text-orange-700" />
                 </div>
 
                 <div className="flex flex-wrap items-baseline justify-between gap-x-4 gap-y-1 mb-3">
-                  <h4 className="text-lg font-semibold text-slate-900 dark:text-white">
+                  <h4 className="text-lg font-semibold text-slate-900">
                     {job.role}
                   </h4>
                   <span className="inline-flex items-center gap-1.5 text-xs font-semibold">
@@ -36,9 +36,16 @@ export default function Experience() {
                   </span>
                 </div>
 
-                <p className="text-sm font-medium text-orange-700 dark:text-orange-400 mb-4">
-                  {job.company}
-                </p>
+                <div className="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
+                  <p className="text-sm font-medium text-orange-700 dark:text-orange-400">
+                    {job.company}
+                  </p>
+                  {job.Location && (
+                    <p className="text-xs sm:text-sm font-medium text-right">
+                      {job.Location}
+                    </p>
+                  )}
+                </div>
 
                 <ul className="space-y-2.5">
                   {job.points.map((point, i) => (

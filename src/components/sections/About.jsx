@@ -62,7 +62,7 @@ export default function About() {
                   <div className="flex items-start gap-3">
                     <GraduationCap size={18} className="mt-0.5 text-orange-700 shrink-0" />
                     <span className="text-sm text-slate-600 leading-relaxed">
-                      BSc Computer Science, Machakos University
+                      BSc Computer Science, Machakos University, Awaiting Graduation
                     </span>
                   </div>
 
@@ -72,7 +72,7 @@ export default function About() {
                       href="tel:+254743669252"
                       className="text-sm text-slate-600 hover:text-orange-700"
                     >
-                      +254 743 669 252
+                      +254743669252
                     </a>
                   </div>
 
