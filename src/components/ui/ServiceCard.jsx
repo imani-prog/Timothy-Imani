@@ -1,14 +1,14 @@
-import { Code2, Database, Cloud } from 'lucide-react'
+import { Code2, Database, Cloud, Laptop } from 'lucide-react'
 
-const ICONS = { Code2, Database, Cloud }
+const ICONS = { Code2, Database, Cloud, Laptop }
 
 export default function ServiceCard({ service }) {
   const Icon = ICONS[service.icon]
 
   return (
     <div className="flex-1 px-6 py-8 text-center sm:text-left">
-      <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl bg-blue-50 dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 mb-5">
-        <Icon size={24} />
+      <div className="inline-flex items-center justify-center w-12 h-12 rounded-xl  dark:bg-blue-900/30 text-blue-700 dark:text-blue-400 mb-5">
+        <Icon size={44} />
       </div>
 
       <h4 className="text-lg font-semibold text-slate-900 dark:text-white">

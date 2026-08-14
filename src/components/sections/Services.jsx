@@ -3,10 +3,10 @@ import ServiceCard from '../ui/ServiceCard'
 
 export default function Services() {
   return (
-    <section id="services" className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900">
+    <section id="services" className="py-20 px-5 sm:px-8 bg-white dark:bg-slate-900 font-serif">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-14">
-          <h2 className="text-sm font-semibold uppercase tracking-wider text-blue-700 dark:text-blue-400">
+          <h2 className="font-semibold uppercase tracking-wider text-blue-700 dark:text-blue-400">
             Services
           </h2>
           <h3 className="mt-2 text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white">
