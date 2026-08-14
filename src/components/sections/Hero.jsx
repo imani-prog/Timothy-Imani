@@ -1,4 +1,4 @@
-
+import CodingAnimation from '../ui/CodingAnimation'
 import GmailIcon from '../../assets/gmail.png'
 import { Sunrise, Sun, MoonStar } from 'lucide-react'
 
@@ -59,6 +59,11 @@ export default function Hero() {
             </span>
           </div>
         </div>
+
+        <div className="mt-8">
+  <CodingAnimation />
+</div>
+
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
           <a
