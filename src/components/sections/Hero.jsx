@@ -1,9 +1,6 @@
 import CodingAnimation from '../ui/CodingAnimation'
-import GmailIcon from '../../assets/gmail.png'
 import { Sunrise, Sun, MoonStar } from 'lucide-react'
-
-const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
-// const WHATSAPP_URL = 'https://wa.me/254743669252'
+import GmailIcon from '../../assets/gmail.png'
 
 function getGreeting() {
   const hour = new Date().getHours()
@@ -21,12 +18,6 @@ export default function Hero() {
       className="pt-32 font-serif pb-20 px-5 sm:px-8 dark:from-slate-950 dark:to-slate-900"
     >
       <div className="max-w-4xl mx-auto text-center">
-        {/* <img
-          src={ProfileImage}
-          alt="Timothy Imani"
-          className="w-32 h-32 sm:w-40 sm:h-40 rounded-full object-cover mx-auto mb-6 border-4 border-white dark:border-slate-800 shadow-lg"
-        /> */}
-
         <div
           id="greeting"
           className="flex items-center justify-center gap-2 sm:gap-3 mb-4 text-slate-700 dark:text-slate-200"
@@ -61,8 +52,8 @@ export default function Hero() {
         </div>
 
         <div className="mt-8">
-  <CodingAnimation />
-</div>
+          <CodingAnimation />
+        </div>
 
 
         <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-5">
@@ -74,65 +65,65 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-18 flex items-center justify-center gap-5">
-          <a
-            href="https://www.linkedin.com/in/timothy-imani-5677ba253"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="LinkedIn"
-            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
-            title="LinkedIn"
-          >
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-              alt="LinkedIn Icon"
-              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-          </a>
 
-          <a
-            href="https://github.com/imani-prog"
-            target="_blank"
-            rel="noreferrer"
-            aria-label="GitHub"
-            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
-            title="GitHub"
-          >
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              alt="GitHub Icon"
-              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-          </a>
+        <div className="mt-8 text-center">
 
-          <a
-            href="mailto:timothyimani128@gmail.com"
-            aria-label="Email"
-            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
-            title="Email"
-          >
-            <img
-              src={GmailIcon}
-              alt="Gmail Icon"
-              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-          </a>
-
-          <a
-            href={CV_URL}
-            target="_blank"
-            rel="noreferrer"
-            aria-label="Preview CV"
-            className="group w-10 h-10 rounded-full flex items-center justify-center p-2 transition-transform duration-300 hover:-translate-y-1"
-            title="Preview CV"
-          >
-            <img
-              src="https://upload.wikimedia.org/wikipedia/commons/8/87/PDF_file_icon.svg"
-              alt="Download CV Icon"
-              className="w-6 h-6 object-contain transition-transform duration-300 group-hover:scale-110"
-            />
-          </a>
+          <div className="flex flex-wrap items-center justify-center gap-2 sm:gap-4">
+            <a href="https://github.com/imani-prog" target="_blank" rel="noreferrer" aria-label="GitHub" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                alt="GitHub"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            <a href="https://wa.me/+254743669252" target="_blank" rel="noreferrer" aria-label="WhatsApp" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.simpleicons.org/whatsapp/25D366"
+                alt="WhatsApp"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            <a href="https://www.linkedin.com/in/timothy-imani-5677ba253" target="_blank" rel="noreferrer" aria-label="LinkedIn" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                alt="LinkedIn"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            <a href="https://x.com/Imani_dvp" target="_blank" rel="noreferrer" aria-label="Twitter" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/twitter/twitter-original.svg"
+                alt="Twitter"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            <a href="https://www.reddit.com/user/KindlyAd3304/" target="_blank" rel="noreferrer" aria-label="Reddit" className="flex shrink-0 items-center justify-center transition hover:scale-105">
+              <img
+                src="https://cdn.simpleicons.org/reddit/FF4500"
+                alt="Reddit"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            <a href="https://t.me/Gladiator_CTO" target="_blank" rel="noreferrer" aria-label="Telegram" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.simpleicons.org/telegram/26A5E4"
+                alt="Telegram"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+            
+            <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
+              <img
+                src="https://cdn.simpleicons.org/medium/000000"
+                alt="Medium"
+                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
+              />
+            </a>
+          </div>
         </div>
+
+
+
       </div>
     </section>
   )

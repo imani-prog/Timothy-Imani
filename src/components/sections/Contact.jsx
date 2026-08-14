@@ -1,5 +1,3 @@
-import GmailIcon from '../../assets/gmail.png'
-
 export default function Contact() {
   return (
     <section id="contact" className="bg-white font-serif dark:bg-slate-900 text-slate-900 dark:text-white">
@@ -118,13 +116,6 @@ export default function Contact() {
               />
             </a>
 
-            <a href="mailto:timothyimani128@gmail.com" aria-label="Email" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
-              <img
-                src={GmailIcon}
-                alt="Gmail"
-                className="h-7 w-7 object-contain sm:h-9 sm:w-9"
-              />
-            </a>
             <a href="https://medium.com/@timothyimani128" target="_blank" rel="noreferrer" aria-label="Medium" className="flex shrink-0 items-center justify-center p-1 transition hover:scale-105">
               <img
                 src="https://cdn.simpleicons.org/medium/000000"
@@ -134,13 +125,9 @@ export default function Contact() {
             </a>
           </div>
         </div>
+
       </div>
-      <div className="border-t border-slate-200 dark:border-slate-700 bg-gray-300">
-        <p className="text-center py-6">
-          &copy;
-          {new Date().getFullYear()} Timothy Imani.
-        </p>
-      </div>
+
     </section>
   )
 }
