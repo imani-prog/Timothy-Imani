@@ -1,5 +1,5 @@
 import { Phone, Mail, GraduationCap, MapPin } from 'lucide-react'
-import ProfileImage from '../../assets/Profile.png'
+import ProfileImage from '../../assets/Profile.jpeg'
 import { skillGroups } from '../../data/skillsData'
 
 const CV_URL = 'https://drive.google.com/file/d/1B9xZ03vUnV6P8gXd1Mws1CT-PWRfkCa0/view?usp=drive_link'
@@ -128,12 +128,12 @@ export default function About() {
             </div>
           </div>
 
-          <div className="mt-4 flex flex-col sm:flex-row justify-center gap-3 max-w-[520px] mx-auto">
+          <div className="mt-4 flex flex-col sm:flex-row justify-center gap-3 w-full max-w-[420px] mx-auto">
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noreferrer"
-              className="flex-1 min-w-[180px] text-center px-4 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
+              className="flex-1 min-w-0 text-center px-4 py-3 rounded-full bg-blue-700 text-white text-sm font-semibold shadow-sm hover:bg-blue-800 transition-all duration-200"
             >
               HIRE ME
             </a>
@@ -141,7 +141,7 @@ export default function About() {
               href={CV_URL}
               target="_blank"
               rel="noreferrer"
-              className="flex-1 min-w-[180px] text-center px-4 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
+              className="flex-1 min-w-0 text-center px-4 py-3 rounded-full border border-slate-300 dark:border-slate-700 text-slate-900 dark:text-slate-100 text-sm font-semibold hover:bg-slate-100 dark:hover:bg-slate-800 transition-all duration-200"
             >
               DOWNLOAD CV
             </a>
