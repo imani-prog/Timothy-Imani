@@ -128,12 +128,12 @@ export default function About() {
             </div>
           </div>
 
-          <div className="mt-4 flex flex-col sm:flex-row justify-center gap-3 w-full max-w-[300px] sm:max-w-[420px] mx-auto">
+          <div className="mt-4 flex flex-col items-center sm:flex-row sm:items-stretch justify-center gap-3 w-full sm:max-w-105 mx-auto">
             <a
               href={WHATSAPP_URL}
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:flex-1 min-w-0 text-center px-2 py-2.5 sm:py-3 rounded-full bg-orange-700 text-white text-sm font-semibold shadow-sm hover:bg-orange-800 transition-all duration-200"
+              className="w-45 sm:w-auto sm:flex-1 min-w-0 text-center px-4 py-2 sm:py-3 rounded-full bg-orange-700 text-white text-sm font-semibold shadow-sm hover:bg-orange-800 transition-all duration-200"
             >
               HIRE ME
             </a>
@@ -141,7 +141,7 @@ export default function About() {
               href={CV_URL}
               target="_blank"
               rel="noreferrer"
-              className="w-full sm:flex-1 min-w-0 text-center px-2 py-2.5 sm:py-3 rounded-full border border-slate-300 text-slate-900 text-sm font-semibold hover:bg-slate-100 transition-all duration-200"
+              className="w-45 sm:w-auto sm:flex-1 min-w-0 text-center px-4 py-2 sm:py-3 rounded-full border border-slate-300 text-slate-900 text-sm font-semibold hover:bg-slate-100 transition-all duration-200"
             >
               DOWNLOAD CV
             </a>
