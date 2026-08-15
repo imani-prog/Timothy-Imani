@@ -2,8 +2,10 @@ import MediLinkImage from '../assets/MediLink.png'
 import InspireMeImage from '../assets/InspireMe.png'
 import ToraImage from '../assets/Tora.png'
 import SokoGridImage from '../assets/SokoGrid.png'
+import TilliqoImage from '../assets/Tilliqo.png'
 
 export const projects = [
+
 
 
   {
@@ -24,7 +26,6 @@ export const projects = [
     githubUrl: 'https://github.com/imani-prog',
   },
 
-
   {
     name: 'SokoGrid - Agribusiness Supply Chain Platform',
     image: SokoGridImage,
@@ -36,15 +37,14 @@ export const projects = [
       'Spring Boot',
       'PostgreSQL',
       'Docker',
-  
     ],
     description:
       'An end-to-end agribusiness supply chain platform connecting manufacturers, distributors, agrodealers, and farmers through real-time inventory, order management, product traceability, logistics, and supply chain analytics.',
     liveUrl: 'https://soko-grid.vercel.app/',
-    githubUrl: 'https://github.com/imani-prog/SokoGrid',
+    githubUrl: 'https://github.com/imani-prog',
   },
 
-    {
+  {
     name: 'Inspire Me',
     image: InspireMeImage,
     techStack: [
@@ -60,20 +60,21 @@ export const projects = [
     githubUrl: 'https://github.com/imani-prog/InspireMeFrontend.git',
   },
 
-
   {
-    name: 'Tora Dental Clinic',
-    image: ToraImage,
+    name: 'Tilliqo - Point of Sale System',
+    image: TilliqoImage,
     techStack: [
-      'HTML5',
-      'CSS3',
-      'Bootstrap 5',
-      'Animate.css',
-      'Google Fonts',
+      'React',
+      'JavaScript',
+      'Tailwind CSS',
+      'Java',
+      'Spring Boot',
+      'PostgreSQL',
+      'Docker',
     ],
     description:
-      'A professional dental clinic website with dynamic carousel, appointment booking system, responsive navigation, team profiles, and comprehensive service listings. Features Bootstrap 5 framework with custom animations and Google Fonts integration.',
-    liveUrl: 'https://imani-prog.github.io/ToraDentalClinic/',
-    githubUrl: 'https://github.com/imani-prog/ToraDentalClinic.git',
+      'A point-of-sale system built for how Kenyan businesses actually sell — checkout, inventory tracking, M-Pesa payments, and sales reporting in one place. Currently under active development. The coming-soon landing page is live while the core platform is being built.',
+    liveUrl: 'https://tilliqo.vercel.app/',
+    githubUrl: 'https://github.com/imani-prog',
   },
 ]
