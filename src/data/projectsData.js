@@ -1,6 +1,5 @@
 import MediLinkImage from '../assets/MediLink.png'
 import InspireMeImage from '../assets/InspireMe.png'
-import ToraImage from '../assets/Tora.png'
 import SokoGridImage from '../assets/SokoGrid.png'
 import TilliqoImage from '../assets/Tilliqo.png'
 
