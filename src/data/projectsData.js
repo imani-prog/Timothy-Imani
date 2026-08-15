@@ -40,7 +40,7 @@ export const projects = [
     ],
     description:
       'An end-to-end agribusiness supply chain platform connecting manufacturers, distributors, agrodealers, and farmers through real-time inventory, order management, product traceability, logistics, and supply chain analytics.',
-    liveUrl: 'https://imani-prog.github.io/SokoGrid/',
+    liveUrl: 'https://soko-grid.vercel.app/',
     githubUrl: 'https://github.com/imani-prog/SokoGrid',
   },
 
