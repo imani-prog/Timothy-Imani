@@ -8,7 +8,14 @@ export default function Contact() {
     setStatus('sending')
 
     const formData = new FormData(e.target)
-    formData.append('access_key', 'f3904db0-da9d-4061-8d10-bf9d0f222768')
+    const accessKey = import.meta.env.WEB3FORMS_ACCESS_KEY
+
+    if (!accessKey) {
+      setStatus('error')
+      return
+    }
+
+    formData.append('access_key', accessKey)
 
     try {
       const res = await fetch('https://api.web3forms.com/submit', {
