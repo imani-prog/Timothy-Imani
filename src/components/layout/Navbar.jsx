@@ -18,7 +18,7 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false)
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/80  backdrop-blur-md border-b border-slate-200">
+    <header className="fixed justify-center top-0 left-0 right-0 z-50 bg-white/80  backdrop-blur-md border-b border-slate-200">
       <nav className="max-w-6xl mx-auto px-5 h-16 flex items-center justify-between">
         <a href="#" className="font-bold font-serif text-lg text-slate-900">
           Timothy Imani <span aria-hidden="true"></span>
