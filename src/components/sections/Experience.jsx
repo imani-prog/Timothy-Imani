@@ -37,7 +37,7 @@ export default function Experience() {
                 </div>
 
                 <div className="mb-4 flex flex-wrap items-center justify-between gap-x-4 gap-y-1">
-                  <p className="text-sm font-medium text-orange-700 dark:text-orange-400">
+                  <p className="font-medium text-orange-700 dark:text-orange-400">
                     {job.company}
                   </p>
                   {job.Location && (
@@ -53,7 +53,7 @@ export default function Experience() {
                       key={i}
                       className="text-sm text-slate-600 dark:text-slate-300 leading-relaxed flex gap-2.5"
                     >
-                      <span className="mt-2 w-1 h-1 rounded-full bg-slate-400 dark:bg-slate-600 flex-shrink-0" />
+                      <span className="mt-2 w-1 h-1 rounded-full bg-orange-400 flex-shrink-0" />
                       {point}
                     </li>
                   ))}
