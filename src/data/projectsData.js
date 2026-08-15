@@ -21,7 +21,7 @@ export const projects = [
     description:
       'A comprehensive healthcare platform for Africa that connects patients, clinics, and community health workers. Features include patient registration, clinic finder, health worker connectivity, gamified health challenges, and real-time support. Built with modern React architecture and deployed on Vercel for optimal performance.',
     liveUrl: 'https://medilink-public.vercel.app',
-    githubUrl: '',
+    githubUrl: 'https://github.com/imani-prog',
   },
 
 
@@ -40,7 +40,7 @@ export const projects = [
     ],
     description:
       'An end-to-end agribusiness supply chain platform connecting manufacturers, distributors, agrodealers, and farmers through real-time inventory, order management, product traceability, logistics, and supply chain analytics.',
-    liveUrl: '',
+    liveUrl: 'https://imani-prog.github.io/SokoGrid/',
     githubUrl: 'https://github.com/imani-prog/SokoGrid',
   },
 
