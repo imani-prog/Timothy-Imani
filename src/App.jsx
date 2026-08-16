@@ -1,11 +1,13 @@
+import { lazy, Suspense } from 'react'
 import Navbar from './components/layout/Navbar'
 import Hero from './components/sections/Hero'
-import About from './components/sections/About'
-import Projects from './components/sections/Projects'
-import Services from './components/sections/Services'
-import Contact from './components/sections/Contact'
-import Footer from './components/sections/Footer'
-import Experience from './components/sections/Experience'
+
+const About = lazy(() => import('./components/sections/About'))
+const Experience = lazy(() => import('./components/sections/Experience'))
+const Projects = lazy(() => import('./components/sections/Projects'))
+const Services = lazy(() => import('./components/sections/Services'))
+const Contact = lazy(() => import('./components/sections/Contact'))
+const Footer = lazy(() => import('./components/sections/Footer'))
 
 function App() {
   return (
@@ -13,12 +15,14 @@ function App() {
       <Navbar />
       <main>
         <Hero />
-        <About />
-        <Experience />
-        <Projects />
-        <Services />
-        <Contact />
-        <Footer />
+        <Suspense fallback={<div className="h-20" aria-hidden="true" />}>
+          <About />
+          <Experience />
+          <Projects />
+          <Services />
+          <Contact />
+          <Footer />
+        </Suspense>
       </main>
     </div>
   )

@@ -1,5 +1,7 @@
-import CodingAnimation from '../ui/CodingAnimation'
+import { lazy, Suspense } from 'react'
 import { Sunrise, Sun, MoonStar } from 'lucide-react'
+
+const CodingAnimation = lazy(() => import('../ui/CodingAnimation'))
 
 function getGreeting() {
   const hour = new Date().getHours()
@@ -51,7 +53,9 @@ export default function Hero() {
         </div>
 
         <div className="mt-4 sm:mt-8">
-          <CodingAnimation />
+          <Suspense fallback={<div className="h-40 sm:h-56" aria-hidden="true" />}>
+            <CodingAnimation />
+          </Suspense>
         </div>
 
         <div className="mt-5 flex justify-center sm:mt-8 sm:flex-row sm:items-center sm:justify-center sm:gap-5">
