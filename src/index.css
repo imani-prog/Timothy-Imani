@@ -12,3 +12,142 @@ body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
+
+.system-map {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 0.75rem;
+}
+
+.system-step {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  width: 100%;
+}
+
+.system-step-card {
+  width: 100%;
+  max-width: 100%;
+  border: 1px solid #e2e8f0;
+  border-radius: 0.9rem;
+  padding: 0.95rem;
+  background: linear-gradient(180deg, #fff 0%, #f8fafc 100%);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.06);
+}
+
+.system-step-label {
+  font-size: 0.78rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #c2410c;
+}
+
+.system-step-stack {
+  margin-top: 0.25rem;
+  font-size: 0.93rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.system-step-detail {
+  margin-top: 0.45rem;
+  font-size: 0.78rem;
+  line-height: 1.35;
+  color: #475569;
+}
+
+.system-flow {
+  width: 2px;
+  height: 30px;
+  position: relative;
+  margin: 0.3rem auto;
+}
+
+.system-flow-track {
+  position: absolute;
+  inset: 0;
+  background: #cbd5e1;
+  border-radius: 999px;
+}
+
+.system-flow-dot {
+  position: absolute;
+  left: -4px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  background: #ea580c;
+  box-shadow: 0 0 0 6px rgba(234, 88, 12, 0.18);
+  animation: flowPulseVertical 2.2s ease-in-out infinite;
+}
+
+@media (min-width: 768px) {
+  .system-map {
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+    overflow-x: auto;
+    padding-bottom: 0.35rem;
+  }
+
+  .system-step {
+    flex-direction: row;
+    align-items: center;
+    width: auto;
+  }
+
+  .system-step-card {
+    width: 190px;
+    max-width: none;
+  }
+
+  .system-flow {
+    width: 76px;
+    height: 2px;
+    margin: 0 0.2rem;
+  }
+
+  .system-flow-dot {
+    left: 0;
+    top: -4px;
+    animation: flowPulse 2.2s ease-in-out infinite;
+  }
+}
+
+@keyframes flowPulseVertical {
+  0% {
+    top: 0;
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    top: calc(100% - 10px);
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+}
+
+@keyframes flowPulse {
+  0% {
+    left: 0;
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+  50% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    left: calc(100% - 10px);
+    transform: scale(0.92);
+    opacity: 0.75;
+  }
+}
