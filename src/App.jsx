@@ -2,6 +2,7 @@ import { lazy, Suspense } from 'react'
 import Navbar from './components/layout/Navbar'
 import Hero from './components/sections/Hero'
 
+
 const About = lazy(() => import('./components/sections/About'))
 const Experience = lazy(() => import('./components/sections/Experience'))
 const Projects = lazy(() => import('./components/sections/Projects'))
@@ -9,6 +10,7 @@ const EngineeringDashboard = lazy(() => import('./components/sections/Engineerin
 const Services = lazy(() => import('./components/sections/Services'))
 const Contact = lazy(() => import('./components/sections/Contact'))
 const Footer = lazy(() => import('./components/sections/Footer'))
+const BackToTop = lazy(() => import('./components/ui/BackToTop'))
 
 function App() {
   return (
@@ -24,6 +26,7 @@ function App() {
           <Services />
           <Contact />
           <Footer />
+          <BackToTop />
         </Suspense>
       </main>
     </div>
