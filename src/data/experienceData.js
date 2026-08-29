@@ -14,18 +14,24 @@ export const experience = [
       'Gained hands-on cloud and infrastructure experience through Google Cloud Console, including provisioning and configuring Virtual Machines and working with cloud-based development and deployment environments, strengthening my understanding of how applications move beyond local development into real-world infrastructure.'
     ],
   },
-  {
-    role: 'Computer Laboratory Technician & IT Instructor',
-    company: "Bujwang'a Secondary School",
-    Location: 'Busia, Kenya Onsite',
-    period: 'May 2024 – Aug 2024',
-    points: [
-      'Provided hands-on technical support across the computer laboratory, diagnosing and resolving hardware, software, operating system, peripheral, and connectivity issues while ensuring systems remained reliable and available for daily learning activities.',
-      
-      'Managed the setup and maintenance of laboratory workstations, including Windows installation and configuration, software deployment, system updates, antivirus and malware checks, hardware inspection, preventive maintenance, and troubleshooting of recurring technical issues.',
-      
-      'Supported students and staff through practical computer instruction and user assistance, teaching digital literacy, typing, file management, productivity software, and effective computer usage while developing strong foundations in IT support, system administration, troubleshooting, and technical communication.',
-      'Collaborated with school administration to implement IT policies, maintain laboratory resources, and ensure a safe and productive computing environment, contributing to the overall educational experience and fostering a culture of responsible technology use.'
-    ],
-  },
+
+{
+role: 'Computer Laboratory Technician & IT Instructor',
+company: "Bujwang'a Secondary School",
+Location: 'Busia, Kenya Onsite',
+period: 'May 2024 – Aug 2024',
+points: [
+'Provided hands-on technical support across the computer laboratory, diagnosing and resolving hardware, software, operating system, peripheral, and connectivity issues while ensuring systems remained reliable and available for daily learning activities.',
+
+'Served as the lead instructor for the KCSE KNEC Computer Studies Project, taking primary responsibility for student preparation, practical instruction, project guidance, and successful implementation, while also supporting students and staff in digital literacy, typing, file management, productivity software, and effective computer usage.',
+
+'Managed the setup and maintenance of laboratory workstations, including Windows installation and configuration, installation and configuration of essential educational and productivity applications, system updates, antivirus and malware checks, hardware inspection, preventive maintenance, and troubleshooting of recurring technical issues.',
+
+'Collaborated with school administration to implement IT policies, maintain laboratory resources, and ensure a safe and productive computing environment, contributing to the overall educational experience and fostering a culture of responsible technology use.'
+
+],
+},
+
+
+
 ];
