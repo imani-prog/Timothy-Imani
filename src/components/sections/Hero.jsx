@@ -28,7 +28,7 @@ export default function Hero() {
           </span>
           <GreetingIcon
             size={22}
-            className="text-orange-700 sm:w-8 sm:h-8"
+            className="text-orange-600 sm:w-8 sm:h-8"
           />
         </div>
 
