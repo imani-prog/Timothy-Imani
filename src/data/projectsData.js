@@ -1,6 +1,6 @@
 import MediLinkImage from '../assets/MediLink.png'
 import InspireMeImage from '../assets/InspireMe.png'
-import SokoGridImage from '../assets/SokoGrid.png'
+import VirtechImage from '../assets/Virtech.png'
 import TilliqoImage from '../assets/Tilliqo.png'
 
 export const projects = [
@@ -20,14 +20,14 @@ export const projects = [
       'Docker',
     ],
     description:
-      'A comprehensive healthcare platform for Africa that connects patients, clinics, and community health workers. Features include patient registration, clinic finder, health worker connectivity, gamified health challenges, and real-time support. Built with modern React architecture and deployed on Vercel for optimal performance.',
+      'A comprehensive healthcare platform for Africa that connects patients, clinics, and community health workers. Features include patient registration, clinic finder, health worker connectivity, and real-time support.',
     liveUrl: 'https://medilink-public.vercel.app',
     githubUrl: 'https://github.com/imani-prog',
   },
 
   {
-    name: 'SokoGrid - Agribusiness Supply Chain Platform',
-    image: SokoGridImage,
+    name: 'Virtech - Ecommerce Platform',
+    image: VirtechImage,
     techStack: [
       'React',
       'JavaScript',
@@ -38,8 +38,8 @@ export const projects = [
       'Docker',
     ],
     description:
-      'An end-to-end agribusiness supply chain platform connecting manufacturers, distributors, agrodealers, and farmers through real-time inventory, order management, product traceability, logistics, and supply chain analytics.',
-    liveUrl: 'https://soko-grid.vercel.app/',
+      'A modern e-commerce plartform for a Company that sells electronics, offers Hardware repair services, and offeres IT support services.',
+    liveUrl: 'https://virteck-solutions.vercel.app/',
     githubUrl: 'https://github.com/imani-prog',
   },
 
